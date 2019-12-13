@@ -1,0 +1,22 @@
+INSERT INTO blogful_articles (title, date_published, content)
+  VALUES
+    ('why so many titles', now() - '20 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('why so many items', now() - '23 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('why so many text', now() - '37 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('Title here as well', now() - '45 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('This is also a title', now() - '94 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('Article 1', now() - '35 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('Article 2', now() - '18 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('Article 3', now() - '12 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('Article 4', now() - '13 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('Article 5', now() - '281 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('Article 6', now() - '216 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('Article 7', now() - '211 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('Article 8', now() - '321 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('Article 9', now() - '5 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('Article 10', now() - '210 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('Article 11', now() - '21 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('Article 12', now() - '201 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('Article 13', now() - '3 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('Article 14', now() - '1 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    ('Article 15', now() - '2 days'::INTERVAL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.');
